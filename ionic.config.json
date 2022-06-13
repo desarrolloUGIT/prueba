@@ -1,0 +1,7 @@
+{
+  "name": "emergenciaApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
