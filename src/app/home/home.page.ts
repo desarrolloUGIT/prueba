@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UsuarioService } from '../services/usuario.service';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,13 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(public _us:UsuarioService) {}
+  aca(){
+    this._us.doGet().subscribe(res=>{
+      console.log('Resultado->',res)
+    },err=>{
+      console.log('error->',err)
+    })
+  }
 
 }
