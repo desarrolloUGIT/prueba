@@ -1,0 +1,6 @@
+{
+	"appId": "eit.alertatempranamop",
+	"appName": "emergenciaApp",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
